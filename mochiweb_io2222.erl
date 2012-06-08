@@ -10,9 +10,6 @@
 -export([iodevice_foldl/4, iodevice_foldl/3]).
 -export([iodevice_size/1]).
 -define(READ_SIZE, 8192).
-%%
-%% Tests111111111111
-%%
 
 iodevice_foldl(F, Acc, IoDevice) ->
     iodevice_foldl(F, Acc, IoDevice, ?READ_SIZE).
@@ -36,15 +33,6 @@ iodevice_size(IoDevice) ->
     {ok, Size} = file:position(IoDevice, eof),
     {ok, 0} = file:position(IoDevice, bof),
     Size.
-
-
-%%
-%% Tests111111111111
-%%
-%%
-%% Tests2222222222222
-%%
-
 
 
 %%
