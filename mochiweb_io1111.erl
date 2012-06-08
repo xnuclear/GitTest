@@ -36,15 +36,6 @@ iodevice_size(IoDevice) ->
 
 
 %%
-%% Tests111111111111
-%%
-%%
-%% Tests2222222222222
-%%
-
-
-
-%%
 %% Tests
 %%
 -ifdef(TEST).
