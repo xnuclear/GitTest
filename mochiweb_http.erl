@@ -1,5 +1,5 @@
 %% @author Bob Ippolito <bob@mochimedia.com>
-%% @copyright 2007 Mochi Media, Inc.
+%% @copyright 2007 Mochi Media, Inc.asdfafasfsd
 
 %% @doc HTTP server.
 
