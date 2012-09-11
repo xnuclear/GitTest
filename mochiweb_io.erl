@@ -19,7 +19,7 @@
 jinkun
 iodevice_foldl(F, Acc, IoDevice) ->
     iodevice_foldl(F, Acc, IoDevice, ?READ_SIZE).
-
+jisoo
 iodevice_foldl(F, Acc, IoDevice, BufferSize) ->
     case file:read(IoDevice, BufferSize) of
         eof ->
